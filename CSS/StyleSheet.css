@@ -15,7 +15,8 @@ left:40%;
  .display
 {
 background-color:#222;
-width:220px;
+width:212px;
+max-width: 212px;
 position:relative;
 left:15px;
 top:20px;
@@ -23,6 +24,7 @@ height:40px;
 }
 .display input
 {
+width:inherit;
 position:relative;
 left:2px;
 top:2px;
@@ -49,7 +51,7 @@ border-top:2px solid transparent;
 }
 .button.gray
 {
-color:white;
+color:black;
 background-color:#6f6f6f;
 border-bottom:black 2px solid;
 border-top:2px #6f6f6f solid;
@@ -62,15 +64,15 @@ border-bottom:black 2px solid;
 }
 .button.black
 {
-color:white;
-background-color:303030;
+color:black;
+background-color:#fff;
 border-bottom:black 2px solid;
 border-top:2px 303030 solid;
 }
 .button.orange
 {
 color:black;
-background-color:FF9933;
+background-color:#f00;
 border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
 }
